@@ -5,6 +5,8 @@ import App from './App'
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueRouter from 'vue-router'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 import Page1 from './components/profile'
 import Page2 from './components/exam'
@@ -16,7 +18,7 @@ Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(VueRouter)
-
+Vue.use(VueAxios, axios)
 const routes = [
   { path: '/profile', component: Page1 },
   { path: '/exam', component: Page2  }
