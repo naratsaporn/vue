@@ -18,7 +18,7 @@ npm run build
 npm run build --report
 ```
 # main.js
-กำหนด liberry ที่ใช้งาน เช่น bootstrap-vue , vue-router
+กำหนด liberry ที่ใช้งาน เช่น bootstrap-vue , vue-router , vue-axios
 
 # App.vue 
 กำหนด components ที่ใช้โดยมี components top และ footer เป็นส่วน header และ footer
