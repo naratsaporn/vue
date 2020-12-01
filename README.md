@@ -17,8 +17,11 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+# index.js
+กำหนด App เมื่อเริ่มต้นรันโปรเคให้เรียกใช้งาน component App
+
 # main.js
-กำหนด liberry ที่ใช้งาน เช่น bootstrap-vue , vue-router , vue-axios
+กำหนด liberry ที่ใช้งาน เช่น bootstrap-vue ( css ), vue-router( กำหนดเส้นทาง ) , vue-axios ( เชื่อต่อ Api )
 
 # App.vue 
 กำหนด components ที่ใช้โดยมี components top และ footer เป็นส่วน header และ footer
