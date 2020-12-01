@@ -17,5 +17,9 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+# main.js
+กำหนด liberry ที่ใช้งาน เช่น bootstrap-vue , vue-router
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# App.vue 
+กำหนด components ที่ใช้โดยมี components top และ footer เป็นส่วน header และ footer
+router-view จะเป็นส่วนแสดงข้อมูลตาม path
